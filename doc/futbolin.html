@@ -66,6 +66,7 @@ Walter Alvarez, Randall Araya, Brayan Gonzáles, Oscar Gonzáles, Kevin Moraga y
 <li><p>Para la primera solución se presenta un contador de goles diseñado con Arduino, este usa un sensor de flexibilidad, en el cual al pasar la bola y tocar dicho sensor este envía señal indicando que hubo un cambio (señal que es enviada en números) cuando esto sucede se marcara un gol, se maneja un contador en una variable al que se le suma 1 y este contador sera mostrado en una pantalla LCD.</p></li>
 <li><p>Para la segunda solución se presenta un contador de goles diseñado con Arduino, este usa un sensor de luminosidad y un LCD, en el cual se hará un embudo por el cual la bola ingrese y disminuya la cantidad de luz en el sensor al pasar cuando esto suceda se marcara un gol, se maneja un contador en una variable al que se le suma 1 y este contador sera mostrado en una pantalla LCD.</p></li>
 </ul></li>
+<li><p>Para realizar el monitoreo en el momento de ingreso de la bolita al realizar un gol, se tiene pensado realizar un embudo por el cual ingrese la bolita.</p></li>
 </ul>
 <h2 id="detalles-de-la-solución-propuesta"><a href="#detalles-de-la-solución-propuesta">Detalles de la Solución Propuesta</a></h2>
 <ol style="list-style-type: decimal">
@@ -88,6 +89,7 @@ Walter Alvarez, Randall Araya, Brayan Gonzáles, Oscar Gonzáles, Kevin Moraga y
 <li>Un Potientiometer</li>
 <li>Una Pantalla LCD 16X2</li>
 <li>Un Flex Sensor</li>
+<li>Vease (imagen “Arduino con sensor de flexibilidad”)</li>
 <li>Para el arduino con sensor óptico se necesita:</li>
 <li>Un Arduino</li>
 <li>Un Breadboard Small</li>
@@ -96,14 +98,30 @@ Walter Alvarez, Randall Araya, Brayan Gonzáles, Oscar Gonzáles, Kevin Moraga y
 <li>Un Potientiometer</li>
 <li>Una Pantalla LCD 16X2</li>
 <li>Un Photo Resistor Vease <span class="citation">(Electronics 2014)</span> pag 15, 5, 6</li>
+<li>Vease (imagen “Arduino con sensor de óptico”)</li>
 </ul></li>
 </ul>
 <p>-Ya que se tiene el Arduino emsamblado y conecto a su computadora junto con el Arduino IDE instalado se debe ingresar a <span class="citation">(Github 2015)</span> y Descargar el código fuente “ModuloOptico.ino”, pegarlo en el IDE, compilarlo y correr el programa.</p></li>
-<li><h2><a href="#emsamblado-en-futbolín">Emsamblado en Futbolín</a></h2></li>
+<li>Embudo -Ya que nosotros utilizaremos el sensor óptico, se fabrico un embudo por el cual pasara la bola del futbolin al entrar un gol, esto para que el espacio por donde entra la bolita sea mas reducido, el embudo tendra dos orificios a los lados, en el primero tendra un led conectado a corriente iluminado constantemente y en el segundo tendra el Photo Sensor que estara conectado al arduino, cuando la bolita pase a través del embudo frente a un LED dismunuye la cantidad de luz que capta el Photo Sensor y se marca el gol. Vease (imagen “Componentes del Embudo”)
+<ul>
+<li>Para el embudo se necesita:
+<ul>
+<li>Un pedazo de carton</li>
+<li>Un cilindro de carton</li>
+<li>Silicon</li>
+<li>Un LED</li>
+<li>Cables de corriente</li>
+</ul></li>
+</ul></li>
+<li>Emsamblado en Futbolín
+<ul>
+<li>Teniendo el embudo listo este debe agregarse dentro del canal por donde ingresa la bolita junto con una tabla de madera para evitar las vibraciones vease (imagen “Entrada del Embudo”) y por ultimo con los cables de corriente conectar el LED a corriente y el Photo Sensor a el arduino.</li>
+</ul></li>
 </ol>
 <h2 id="problemas-encontrados"><a href="#problemas-encontrados">Problemas Encontrados</a></h2>
 <ul>
 <li>El modelo de conteo de goles con el sensor de flexibilidad es muy poco duradero el sensor estará muy descubierto y su uso hará que se desgaste muy rápidamente.</li>
+<li>El embudo vibra mucho cuando ingresa la bolita una vez que se realizó un gol, por esto se decidio agregar una tabla de madera en el canal de ingreso de los goles para minimizar la vibración. Vease (imagen “Componentes del Embudo”).</li>
 </ul>
 <h2 id="conclusiones-y-trabajo-futuro"><a href="#conclusiones-y-trabajo-futuro">Conclusiones y trabajo futuro</a></h2>
 <ul>
@@ -113,6 +131,7 @@ Walter Alvarez, Randall Araya, Brayan Gonzáles, Oscar Gonzáles, Kevin Moraga y
 <li>Se quiere implementar el método de cobro con las monedas de CacaoTEC, proyecto que se esta llevando acabo por los miembros de la oficina de TI.</li>
 <li>se quiere implementar los post del partido en Twitter, marcadores durante el juego y resultado del partido.</li>
 </ul>
+<p>Arduino con sensor de flexibilidad: <img src="/home/walter/Documentos/paper/papers/images/flex.jpg" title="Title" alt="imagen 1" /> Arduino con sensor de óptico: <img src="/home/walter/Documentos/paper/papers/images/optico.jpg" title="Title" alt="imagen 2" /> Entrada del Embudo: <img src="/home/walter/Documentos/paper/papers/images/embudo.jpg" title="Title" alt="imagen 3" /> Componentes del Embudo: <img src="/home/walter/Documentos/paper/papers/images/embudoLED.jpg" title="Title" alt="imagen 4" /></p>
 <div class="references">
 <h2><a href="#referencias">Referencias</a></h2>
 <p>Arduino. 2014. “Arduino Reference.”</p>

@@ -105,6 +105,8 @@ Soluciones Propuestas
     
     - Para la segunda solución se presenta un contador de goles diseñado con Arduino, este usa un sensor de luminosidad y un LCD, en el cual se hará un embudo por el cual la bola ingrese y disminuya la cantidad de luz en el sensor al pasar cuando esto suceda se marcara un gol, se maneja un  contador en una variable al que se le suma 1 y este contador sera mostrado en una pantalla LCD.
 
+- Para realizar el monitoreo en el momento de ingreso de la bolita al realizar un gol, se tiene pensado realizar un embudo por el cual ingrese la bolita.
+
 Detalles de la Solución Propuesta
 ---------------------------------
 1. Patas removibles:
@@ -122,7 +124,8 @@ Detalles de la Solución Propuesta
           * Un Push Bottom
           * Un Potientiometer
           * Una Pantalla LCD 16X2
-          * Un Flex Sensor
+          * Un Flex Sensor 
+          * Vease (imagen "Arduino con sensor de flexibilidad")
         + Para el arduino con sensor óptico se necesita:
           * Un Arduino
           * Un Breadboard Small 
@@ -131,16 +134,26 @@ Detalles de la Solución Propuesta
           * Un Potientiometer
           * Una Pantalla LCD 16X2
           * Un Photo Resistor Vease [@sikguide] pag 15, 5, 6
+          * Vease (imagen "Arduino con sensor de óptico")
           
     -Ya que se tiene el Arduino emsamblado y conecto a su computadora junto con el Arduino IDE instalado se debe ingresar a [@webgithub] y Descargar el código fuente "ModuloOptico.ino", pegarlo en el IDE, compilarlo y correr el programa.
 
+4. Embudo
+    -Ya que nosotros utilizaremos el sensor óptico, se fabrico un embudo por el cual pasara la bola del futbolin al entrar un gol, esto para que el espacio por donde entra la bolita sea mas reducido, el embudo  tendra dos orificios a los lados, en el primero tendra un led conectado a corriente iluminado constantemente y en el segundo tendra el Photo Sensor que estara conectado al arduino, cuando la bolita pase a través del embudo frente a un LED dismunuye la cantidad de luz que capta el Photo Sensor y se marca el gol. Vease (imagen "Componentes del Embudo")
+      + Para el embudo se necesita:
+        * Un pedazo de carton
+        * Un cilindro de carton
+        * Silicon
+        * Un LED
+        * Cables de corriente
 
 3. Emsamblado en Futbolín
-    - 
+    - Teniendo el embudo listo este debe agregarse dentro del canal por donde ingresa la bolita junto con una tabla de madera para evitar las vibraciones vease (imagen "Entrada del Embudo") y por ultimo con los cables de corriente conectar el LED a corriente y el Photo Sensor a el arduino.
 
 Problemas Encontrados
 ---------------------
 - El modelo de conteo de goles con el sensor de flexibilidad es muy poco duradero el sensor estará muy descubierto y su uso hará que se desgaste muy rápidamente.
+- El embudo vibra mucho cuando ingresa la bolita una vez que se realizó un gol, por esto se decidio agregar una tabla de madera en el canal de ingreso de los goles para minimizar la vibración. Vease (imagen "Componentes del Embudo").
 
 
 Conclusiones y trabajo futuro
@@ -152,6 +165,10 @@ Conclusiones y trabajo futuro
 - Se quiere implementar el método de cobro con las monedas de CacaoTEC, proyecto que se esta llevando acabo por los miembros de la oficina de TI.
 - se quiere implementar los post del partido en Twitter, marcadores durante el juego y resultado del partido.
 
+Arduino con sensor de flexibilidad: ![imagen 1](/home/walter/Documentos/paper/papers/images/flex.jpg "Title")
+Arduino con sensor de óptico: ![imagen 2](/home/walter/Documentos/paper/papers/images/optico.jpg "Title")
+Entrada del Embudo: ![imagen 3](/home/walter/Documentos/paper/papers/images/embudo.jpg "Title")
+Componentes del Embudo: ![imagen 4](/home/walter/Documentos/paper/papers/images/embudoLED.jpg "Title")
 
 Referencias
 -----------
