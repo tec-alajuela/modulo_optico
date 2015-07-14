@@ -6,7 +6,7 @@ Institución: 'Tecnológico de Costa Rica'
 
 Titulo: 'Módulo Óptico para Sistemas de Puntos, aplicado en Mesas de Juego'
 
-Abstract: 'Este proyector trata acerca de la reparación,el mejoramiento y la impementacion de la tecnología de los Arduinos en un futbolín, dicha tecnología se usara para el conteo de  goles automatizado, utilizando un LCD y un sensor de Luz'
+Abstract: 'Este proyector trata acerca de la reparación,el mejoramiento y la implementacion de la tecnología de los Arduinos en un futbolín, dicha tecnología se usara para el conteo de goles automatizado, utilizando un LCD y un sensor de Luz'
 
 Keywords: 'Futbolín, Arduino, Marcador'
 
@@ -28,7 +28,7 @@ Autor4Biografia: 'Estudiante avanzado de la carrera de Ingeniería en Computaci�
 
 Autor5: 'Kevin Moraga'
 
-Autor5Biografia: 'Ingeniero en Computación del Tecnológico de Costa Rica, Master en Ciencias de la Computación del Tecnológico de Costa Rica. Es profesor del Tecnológico de Costa Rica y actualmente es el coordinador de  la Oficina de TI de la Escuela de Ingeniería en Computación del Tecnológico de Costa Rica de la Sede Interuniversitaria'
+Autor5Biografia: 'Ingeniero en Computación del Tecnológico de Costa Rica, Master en Ciencias de la Computación del Tecnológico de Costa Rica. Es profesor del Tecnológico de Costa Rica y actualmente es el coordinador de la Oficina de TI de la Escuela de Ingeniería en Computación del Tecnológico de Costa Rica de la Sede Interuniversitaria'
 
 Autor6: 'Jordan Villalobos'
 
@@ -114,13 +114,13 @@ Detalles de la Solución Propuesta
     - una vez que se obtuvo 4 varillas de 14 cm, se le perforó en la parte superior las patas removidas y y la parte inferior de las patas que aun estaban en el futbolín, se añadió la varilla y se unieron las patas.
 
 2. Contador Automático:
-    - Para realizar el lector de goles automatico es necesario el kit de Arduino "SparkFun Inventorś Kit - V3.2"
+    - Para realizar el lector de goles automatico es necesario el kit de Arduino "SparkFun Inventors Kit - V3.2"
     - Se debe instalar el Arduino IDE, si se esta en una plataforma linux se debe ingresar a una terminal y escribir sudo apt-get install arduino, si se encuentra en una plataforma diferente se  debe ingresar a [@webarduino] a la viñeta de Download y seguir las instrucciones de descarga.
     - A continuacion se presentan dos formas de como se debe emsamblar las diferente partes del arduino para poder realizar el marcador de goles automatico.
         + Para el arduino con sensor de flexibilidad se necesitan:
           * Un Arduino
           * Un Breadboard Small 
-          * 10 Jumper Wine
+          * 10 Jumper Wire
           * Un Push Bottom
           * Un Potientiometer
           * Una Pantalla LCD 16X2
@@ -129,7 +129,7 @@ Detalles de la Solución Propuesta
         + Para el arduino con sensor óptico se necesita:
           * Un Arduino
           * Un Breadboard Small 
-          * 10 Jumper Wine
+          * 10 Jumper Wire
           * Un Push Bottom
           * Un Potientiometer
           * Una Pantalla LCD 16X2
