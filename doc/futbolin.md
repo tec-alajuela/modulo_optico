@@ -165,10 +165,10 @@ Conclusiones y trabajo futuro
 - Se quiere implementar el método de cobro con las monedas de CacaoTEC, proyecto que se esta llevando acabo por los miembros de la oficina de TI.
 - se quiere implementar los post del partido en Twitter, marcadores durante el juego y resultado del partido.
 
-Arduino con sensor de flexibilidad: ![imagen 1](/home/walter/Documentos/paper/papers/images/flex.jpg "Title")
-Arduino con sensor de óptico: ![imagen 2](/home/walter/Documentos/paper/papers/images/optico.jpg "Title")
-Entrada del Embudo: ![imagen 3](/home/walter/Documentos/paper/papers/images/embudo.jpg "Title")
-Componentes del Embudo: ![imagen 4](/home/walter/Documentos/paper/papers/images/embudoLED.jpg "Title")
+Arduino con sensor de flexibilidad: ![imagen 1](/images/flex.jpg "Title")
+Arduino con sensor de óptico: ![imagen 2](/images/optico.jpg "Title")
+Entrada del Embudo: ![imagen 3](/images/embudo.jpg "Title")
+Componentes del Embudo: ![imagen 4](/images/embudoLED.jpg "Title")
 
 Referencias
 -----------
