@@ -166,9 +166,10 @@ Conclusiones y trabajo futuro
 - se quiere implementar los post del partido en Twitter, marcadores durante el juego y resultado del partido.
 
 Arduino con sensor de flexibilidad: ![imagen 1](/images/flex.jpg "Title")
-Arduino con sensor de óptico: ![imagen 2](/images/optico.jpg "Title")
+Arduino con sensor óptico: ![imagen 2](/images/optico.jpg "Title")
 Entrada del Embudo: ![imagen 3](/images/embudo.jpg "Title")
 Componentes del Embudo: ![imagen 4](/images/embudoLED.jpg "Title")
+Modelo del arduino con sensor óptico: ![imagen 5](/images/modeloArduino.jpg "Title")
 
 Referencias
 -----------
