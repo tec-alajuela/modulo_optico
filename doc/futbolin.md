@@ -129,8 +129,8 @@ Detalles de la Solución Propuesta
         + Para el arduino con sensor óptico se necesita:
           * Un Arduino
           * Un Breadboard Small 
-          * 10 Jumper Wire
-          * Un Push Bottom
+          * 12 Jumper Wires
+          * Dos Push Bottoms
           * Un Potientiometer
           * Una Pantalla LCD 16X2
           * Un Photo Resistor Vease [@sikguide] pag 15, 5, 6
